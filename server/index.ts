@@ -13,7 +13,6 @@ server.get('/', async (req, res) => {
     return "Hello World"
 });
 
-// const port = process.env.PORT || 5000
 
 try {
     server.listen({ port: 5000 })
